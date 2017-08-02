@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+
+  <body>
+    <img src="logo1.svg" height="150px">
+    <h1>Hoja De Vida</h1>
+    <h2>Nick Ower</h2>
+    <h2>Panche Quiroga</h2>
+    <h3>26/02/1993 </h3>
+    <h3>BOGOTA DC.</h3>
+
+    <ul>
+      <li><a href="index.html">inicio</a></li>
+      <br>
+      <li><a href="educacion.html">Educacíon</a></li>
+      <br>
+      <li><a href="experiencia.html">Experiencia</a></li>
+    </ul>
+
+    <h2>Educacíon</h2>
+    <table border="1">
+      <thead >
+        <tr>
+          <th>curso</th>
+          <th>Institucíon</th>
+          <th>lugar</th>
+          <th>fecha</th>
+          <th>¿Culmino?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Basica Primaria</td>
+          <td>I.E.D. Gustavo Morales Morales (sede b)</td>
+          <td>Bogota DC</td>
+          <td>2001-2004</td>
+          <td>Sí</td>
+        </tr>
+        <tr>
+          <td>Bachillerato</td>
+          <td>Colegio Colsubsidio Las Mercedes I.E.D.</td>
+          <td>Bogota DC</td>
+          <td>2005-2010</td>
+          <td>Sí</td>
+        </tr>
+        <tr>
+          <td>Tecnico Profesional en gestion de sistemas de manejo ambiental</td>
+          <td>Servicio Nacional De Aprendizaje "SENA"</td>
+          <td>Bogota DC</td>
+          <td>2009-2010</td>
+          <td>Sí</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br>
+
+  <form autocomplete="on" name="formulario_estudios" action="index.html" method="post">
+    <fieldset>
+      <legend><strong>Agregar Estudios</strong></legend>
+      <h3>año <input type="number" max="2017" min="1800"></h3>
+      <h3>institucion: <input type="text" required></h3>
+      <h3>lugar <textarea name="lugar" rows="3" cols="30"></textarea></h3>
+      <h3>¿culmino?
+        <input type="radio">SI
+        <input type="radio">NO
+      </h3>
+      <input type="submit" value="enviar">
+
+    </fieldset>
+  </form>
+
+
+  </body>
+
+  <br>
+
+  <p><strong>contacto</strong></p>
+  <footer>
+    <ul>
+      <li>correo: nickpanche@hotmail.com</li>
+      <li>tel:316 888 68 72</li>
+      <li>watsapp: 316 888 68 72</li>
+    </ul>
+  </footer>
+</html>
